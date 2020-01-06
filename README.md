@@ -1,3 +1,3 @@
-Create database using the sql files in sql folder 
-enter db details in config / database.php
-run the website in local host 
+. Create database
+. Import Database.sql file.
+. Add database connection details in config/database.php
