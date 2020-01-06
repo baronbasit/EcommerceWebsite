@@ -1,15 +1,10 @@
 <?php
-//$servername = "127.0.0.1";
-// $username = "webaccess";
-// $password = "sst2RkAusKWr87hY";
-// $dbname = "ecommerce";
-// // Create connection
-// $connection = new mysqli($servername, $username, $password,$dbname);
 
-// // Check connection
-// if ($connection->connect_error) {
-//     die("Connection failed: " . $connection->connect_error);
-// }
+
+if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
+    echo "<script>alert('Already logged in')</script>";
+    echo "<script> window.location.href = \"./products.php\"; </script>";
+}
 if(isset($_POST["submit"])) { 
     $password = $_POST['password'];
     $cpassword = $_POST['cpassword'];
@@ -30,7 +25,7 @@ if(isset($_POST["submit"])) {
         else{
             $sql_6 = "INSERT INTO address(bill_ship,address_1,address_2,country,state,zip,customer_id) VALUES('S','$_POST[add1]','$_POST[add2]','$_POST[Country]','$_POST[state]','$_POST[zip]',$userid)";
             $db->query($sql_6);
-            $sql_7 = "INSERT INTO address(bill_ship,address_1,address_2,country,state,zip,customer_id) VALUES('B','$_POST[add1Billing]','$_POST[add2Billing]','$_POST[CountryBilling]','$_POST[stateBilling]','$_POST[zipBilling]',$value)";
+            $sql_7 = "INSERT INTO address(bill_ship,address_1,address_2,country,state,zip,customer_id) VALUES('B','$_POST[add1Billing]','$_POST[add2Billing]','$_POST[CountryBilling]','$_POST[stateBilling]','$_POST[zipBilling]',$userid)";
             $db->query($sql_7);
         }    echo "<script>alert('Registration successful')</script>";
               echo "<script>window.location = 'login.php'</script>";     
@@ -44,8 +39,6 @@ if(isset($_POST["submit"])) {
     else
     echo "<script>alert('Passwords do not match')</script>";
               echo "<script>window.location = 'register.php'</script>";
-    }
-
-
+}
 
 ?>

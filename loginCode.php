@@ -1,7 +1,5 @@
 <?php
-// include 'config/database.php';
-// ob_start();
-// session_start();
+
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
     echo "<script>alert('Already logged in')</script>";
     echo "<script> window.location.href = \"./products.php\"; </script>";
@@ -22,7 +20,6 @@ if(isset($_POST["lgnBtn"])) {
         $_SESSION["user_id"] = $user_id;
         $_SESSION["firsname"] = $firstName;
         $_SESSION["lastname"] = $lastName;
-        $_SESSION["user_id"] = $user_id;
         $_SESSION["email"] = $_POST['email']; 
          echo "  <script> document.getElementById('login_register').innerHTML='$firstName $lastName';</script>";
          echo "<script> window.location.href = \"./products.php\"; </script>";

@@ -1,0 +1,494 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+BODY
+{
+    font-family: 'Montserrat';
+    background:white;
+}
+
+h1{
+    font-size:35px;
+}
+.main-body {
+    height: auto!important;
+}   
+
+
+.header{
+    text-align:center;
+}
+
+.logo {
+    background-color: transparent;
+    //background-color: white;
+}
+.menu {
+   background-color:transparent;
+    //background-color: white;
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: grey;
+    color: black;
+    padding: 05px 0px;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+.menu a{
+    font-size:15px;
+    padding:0px 30px;
+    border:solid;
+    border-width:0px;
+    border-right-width:1px;
+    border-color:grey;
+    color:black;
+    margin-left:-10px;
+}
+.menu a:hover {
+    background:black;
+    padding: 8px 30px;
+    color: white;
+}
+
+.main {
+    background-image: url('cover-new.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.sec1 {
+    padding: 300px 0px;
+    /*background-image: url('cover-img.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sec1-text{
+    width:50%;
+    float:right;
+    padding: 0px 30px; 
+    text-align:right;
+    color:white;
+}
+
+.sec1 h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: -100px;
+    color: #82DF60;
+}
+
+.sec1 h2 {
+    font-size: 35px;
+    font-style:italic;
+    font-weight: 400;
+    margin-bottom:30px;
+}
+
+.sec1 a {
+    transition: background-color 0.6s ease, padding 0.2s linear;
+    background: #82DF60;
+    padding: 10px 50px;
+    border-width: 2px;
+    border-style: solid;
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.sec1 a:hover {
+    background: #cc1e1e;
+    /*padding: 11px 53px;
+    font-size: 23px;*/
+}
+
+.footer{
+    display:block;
+    width:100%;
+}
+.footer-bottom{
+    color:black;
+    text-align:center;
+    padding:12px 0px;
+    background: #ebe9bc;
+}
+
+.footer-main{
+    padding:60px;
+    padding-bottom:120px;
+    background:url('footer-wood.jpg') no-repeat ;
+    background-size:cover;
+    background-color:white;
+    background-position:center;
+    color:white;
+    height:auto;
+}
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 15px;
+    border-radius:30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.footer-main form {
+    float: right;
+}
+
+form > label {
+     font-size:20px;
+}
+
+form > input{
+    color:white;
+    margin:07px 0px ;
+    padding:10px;
+    border-radius:40px;
+    border-color:black;
+    border-width:3px;
+    background:rgba(20, 19, 19, 0.25);
+    width:100%;
+}
+
+form > button {
+    transition: background 0.6s ease;
+    width: 100%;
+    padding: 10px;
+    border-radius: 40px;
+    border-color: white;
+    border-width: 2px;
+    background: #e4dede;
+    color:black;
+}
+
+form > button:hover {
+    background:white;
+    color:black;
+}
+
+/*SECtion2*/
+
+.sec-2 {
+    text-align: center;
+    background-color: white;
+    padding: 90px 60px;
+    padding-bottom:20px;
+    height:500px;
+}
+.h1-sec-2 h1{
+    color:black;
+}
+.h1-sec-2 hr{
+    width:3%;
+    border: 1px solid black;
+    color:black;
+    margin: 3px auto;
+}
+
+.col {
+    text-align: center;
+    width: 33.33%;
+    float: left;
+    margin-top: 60px;
+}
+
+.col img{
+    width:70%;
+    box-shadow: 0px 0px 5px 5px rgba(44, 165, 255,0.6);
+}
+
+.col img:hover{
+    transition: width 0.6s ease;
+    width:75%;
+    box-shadow: 0px 0px 3px 3px rgba(44, 165, 255,0.32);
+}
+
+.sec-3 {
+    text-align: center;
+    background-color: white;
+    padding: 40px 60px;
+    height: 450px;
+}
+.sec-3.col{
+    margin:0px;
+}
+
+.col1 {
+    width:100%;
+}
+.col1 img{
+    width: 100%;
+    padding:150px;
+}
+
+.footer{
+    display:block;
+}
+
+/*NEXT PAGE FROM HERE-------------------SHOP PAGE----------------------*/
+
+.shop-body.header{
+    background-color:black;
+}
+
+.shop-body .header-img {
+    text-align: center;
+    color: white;
+    background: url('header-img.jpg') no-repeat;
+    background-position: bottom;
+    background-size: cover;
+}
+.header-img h1{
+    padding:160px 0px;
+    font-size: 45px;
+}
+
+.shop-body .sec-3{
+    background-color:#f1f1f1;
+}
+.shop-body .sec-5 {
+    text-align: center;
+    height: 450px;
+    background-color: white;
+    padding: 80px 60px;
+}
+
+.shop-body .sec-6 {
+    text-align: center;
+    height: 480px;
+    background-color: #f1f1f1;
+    padding: 80px 60px;
+}
+
+.shop-body .sec-6 .col{
+    width:50%;
+}
+.shop-body .sec-6 .col > img{
+    width:50%;
+    border:6px double green;
+    box-shadow:none;
+}
+.shop-body .sec-6 .col > img:hover{
+    width:52%;
+}
+.shop-body .sec-6 h1{
+    text-shadow: 0px -18px 7px rgb(216, 216, 216);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.checkout-body{
+    height:auto;
+}
+
+
+.checkout-body .header-img {
+    text-align: center;
+    color: white;
+    background: url('checkout1.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.checkout-body .header-img  h1{
+    padding:70px 0px;
+}
+
+.checkout-full {
+    height: 700px;
+}
+.checkoutcol1 {
+    text-align: center;
+    padding: 60px 0px;
+    padding-left:120px;
+    width: 40%;
+    border: 3px solid;
+    border-color: #f1f1f1;
+    float: left;
+}
+
+.checkoutcol1 > form > input[type="text"] {
+    width: 60% !important;
+    border-radius: 10px;
+    border-color: #5c5353;
+    border-width: 1px;
+    color: black;
+    background: transparent;
+}
+.checkoutcol1 > form > label{
+    font-size:18px;
+}
+
+.checkoutcol2 {
+    text-align: center;
+    padding:0px 0px;
+    padding-right: 0px;
+    width: 40%;
+    border: 3px solid;
+    border-color: #f1f1f1;
+    float:right;
+    display:block;
+}
+
+.clearf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+form > input[type="radio"]{
+    margin-bottom:10px;
+    padding:0px;
+    width:10%
+}
+
+.payment-form{
+    padding:10px 30px;
+    margin-top:10px;
+}
+div.checkoutcol2 > div > div > form > input[type="text"] {
+    width: 60% !important;
+    border-radius: 10px;
+    border-color: #5c5353;
+    border-width: 1px;
+    color: black;
+    background: transparent;
+
+}
+
+div.checkoutcol2 > div > div > form > label {
+    font-size: 14px;
+    font-weight:300;
+}
+.checkoutcol2 > div > div > form > button{
+    background:#3B5998;
+    color:white;
+}
+.checkoutcol2 > div > div > form > button:hover {
+    background: #55ACEE;
+    color: white;
+}
+
+.buynow-class {
+    text-align: center;
+    padding: 30px;
+}
+
+.buynow{
+    text-decoration:none;
+    padding:10px 40px;
+    background:white;
+    color:black;
+    border: 1px solid black;
+}
+.buynow:hover{
+    background: black;
+    color: white;
+}
+.buynowone {
+    padding: 10px 57px;
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+.buynowone:hover {
+    background: black;
+    color: white;
+}
+
+
+.header-imgcontact{
+    background:url('contact-us.jpg');
+    padding:120px 0px;
+    text-align:center;
+    color:white;
+}
+.header-imgcontact h1{
+    font-size:45px;
+}
+
+.contact-form{
+    text-align:center;
+    padding:80px 60px;
+}
+
+.formc{
+    text-align:left;
+    padding:70px 120px;
+}
+
+.formc > form input [type="text"], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+div.contact-form > div > form > input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.formc > input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+div.contact-form > div > form > input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background:none;
+    color:black;
+}

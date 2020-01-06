@@ -6,11 +6,6 @@
     include 'config/database.php';
     include 'bootstrap.php';
     include 'navigation.php';
-    // include objects
-    include_once "objects/product.php";
-    include_once "objects/product_image.php";
-    include_once "objects/cart_item.php";
-
 
     // get database connection
     $database = new Database();
@@ -42,7 +37,7 @@
   </div>
   <div class=" text-center display-5 pt-3">
       <b class= "text-danger"> Forgot Password? </b>
-      <a href="/ecom/register.php">
+      <a href="register.php">
       <b class="text-success"> | Register </b>
       </a>
   </div>

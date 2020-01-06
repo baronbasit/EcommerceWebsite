@@ -6,11 +6,6 @@
     include 'config/database.php';
     include 'bootstrap.php';
 
-    // // include objects
-    // include_once "objects/product.php";
-    // include_once "objects/product_image.php";
-    // include_once "objects/cart_item.php";
-
 
     // get database connection
     $database = new Database();
@@ -18,7 +13,6 @@
 
     // set page title
     $page_title="Register";
-include 'layout_head.php';
 ?>
 
 
@@ -136,9 +130,8 @@ $(document).ready(function(){
   </div>
   <div class=" text-center display-5">
       <div class="pt-2">
-      <b class= "text-danger"> Forgot Password? </b>
-      <a href="login.php">
-      <b class="text-success"> | Login </b>
+      <a href="./login.php">
+      <b class="text-success"> Login </b>
       </a>
   </div>
   </div>

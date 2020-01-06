@@ -7,9 +7,9 @@ class Database {
 //   $servername = "127.0.0.1";
 // $username = "webaccess";
 // $password = "sst2RkAusKWr87hY";
-// $dbname = "ecommerce";
+// $dbname = "eco_";
   private $host = "localhost";
-  private $db_name = "ecommerce";
+  private $db_name = "eco_";
   private $username = "webaccess";
   private $password = "sst2RkAusKWr87hY";
   public $conn;
